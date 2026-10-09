@@ -8,12 +8,14 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  static const String hello = 'Hello, cakrawala!';
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello, mas ulum!'),
+          child: Text(hello),
         ),
       ),
     );
