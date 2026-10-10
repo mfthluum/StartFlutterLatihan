@@ -15,13 +15,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-         child: Text(
-        hello,
-        style: const TextStyle(
-        fontSize: 24,
-        color: Colors.blue,
-        ),
-        ),
+        child: Text(
+  hello,
+  style: const TextStyle(
+    fontSize: 24,
+    color: Colors.blue,
+    fontWeight: FontWeight.bold,
+    fontStyle: FontStyle.italic,
+  ),
+),
         ),
       ),
     );
