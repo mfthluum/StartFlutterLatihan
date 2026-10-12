@@ -1,17 +1,45 @@
-# projectflutterku
+# LATIHAN FLUTTER — TEXT DAN TEXTSTYLE
 
-A new Flutter project.
+**NAMA:** MUHAMAD MIFTAHUL ULUM  
+**NIM:** 1124160131  
+**KELAS:** TI 24 P SE 2
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Materi yang Dipelajari
 
-A few resources to get you started if this is your first Flutter project:
+### Commit 1 — Membuat Hello, Mas Ulum
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Mempelajari cara menjalankan aplikasi Flutter dan menampilkan teks `Hello, mas ulum!` menggunakan widget `Text`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Commit 2 — Membuat Tampilan Sederhana
+
+Mempelajari penggunaan widget dasar Flutter, yaitu `MaterialApp`, `Scaffold`, `Center`, dan `Text` untuk membangun tampilan sederhana.
+
+### Commit 3 — Membuat Variabel Teks
+
+Menggunakan `static const String` untuk menyimpan teks `Hello, cakrawala!` agar dapat dipanggil melalui variabel.
+
+### Commit 4 — Mengatur Ukuran dan Warna
+
+Menggunakan `TextStyle` dengan properti `fontSize` untuk mengatur ukuran teks dan `color` untuk menentukan warna teks.
+
+### Commit 5 — Mengatur Ketebalan dan Kemiringan
+
+Menggunakan `FontWeight.bold` untuk membuat teks tebal dan `FontStyle.italic` untuk membuat teks miring.
+
+### Commit 6 — Mengatur Spacing
+
+Menggunakan `letterSpacing` untuk mengatur jarak antarhuruf dan `wordSpacing` untuk mengatur jarak antarkata.
+
+### Commit Terakhir — Menggabungkan Keseluruhan Commit 1–6
+
+Menggabungkan seluruh contoh materi ke dalam satu tampilan agar perbedaan hasil setiap pengaturan teks dapat dilihat secara langsung.
+
+---
+
+## Hasil Akhir
+
+Aplikasi menampilkan beberapa contoh teks secara berurutan, mulai dari teks biasa hingga teks yang telah diatur ukuran, warna, ketebalan, kemiringan, dan jaraknya.
+
+Dengan demikian, pengguna dapat memahami pengaruh setiap properti terhadap tampilan teks dalam Flutter.
